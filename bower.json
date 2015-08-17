@@ -1,0 +1,26 @@
+{
+  "name": "restlet-angular-httpsnippet",
+  "version": "1.0.0",
+  "homepage": "https://github.com/restlet/restlet-angular-httpsnippet",
+  "authors": [
+    "Nicolas Baptiste <nbaptiste-ext@restlet.com>"
+  ],
+  "description": "AngularJS module for httpsnippet-fsless Restlet version",
+  "main": "dist/restlet-angular-httpsnippet.js",
+  "keywords": [
+    "httpsnippet",
+    "httpsnippet-fsless",
+    "Restlet"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".git",
+    ".gitignore",
+    "**/.*",
+    "node_modules",
+    "src",
+    "gulpfile.js",
+    "package.json",
+    "bower_components"
+  ]
+}
