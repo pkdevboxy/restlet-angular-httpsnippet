@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "httpsnippet-fsless": "git://github.com/restlet/httpsnippet"
+    "httpsnippet-fsless": "restlet/httpsnippet#v1.16.4"
   },
   "devDependencies": {
     "browserify": "11.0.1",
