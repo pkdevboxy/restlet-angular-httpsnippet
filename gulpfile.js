@@ -16,11 +16,11 @@ gulp.task('browserify', function() {
 });
 
 gulp.task('lint', function() {
-  return gulp.src('./src/*.js')
+  gulp.src('./src/app.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
     .pipe(jshint.reporter('fail'));
 });
 
 
-gulp.task('default', ['lint','browserify']);
+gulp.task('default', ['lint','browserify'])

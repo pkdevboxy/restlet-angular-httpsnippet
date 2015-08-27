@@ -1,7 +1,7 @@
-(function(window, angular){
+;(function(window, angular){
   'use strict';
 
-  var HTTPSnippet = require('httpsnippet-fsless');
+  var HTTPSnippet = require('httpsnippet');
   
   angular.module('rHttpSnippet', [])
     .factory('httpSnippet', function () {

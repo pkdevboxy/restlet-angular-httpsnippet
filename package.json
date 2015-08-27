@@ -1,7 +1,7 @@
 {
   "name": "restlet-angular-httpsnippet",
-  "version": "1.0.0",
-  "description": "Export httpsnippet-fsless as an AngularJS module",
+  "version": "1.1.0",
+  "description": "Export httpsnippet as an AngularJS module",
   "main": "src/app.js",
   "author": {
     "name": "Nicolas BAPTISTE",
@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "httpsnippet-fsless": "restlet/httpsnippet#v1.16.4"
+    "httpsnippet": "restlet/httpsnippet#restlet"
   },
   "devDependencies": {
     "browserify": "11.0.1",
