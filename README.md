@@ -29,6 +29,10 @@ angular.module('myapp', ['rHttpSnippet'])
 
 Run `npm install`.
 
+## Tests
+
+Run `npm test`.
+
 ## Build
 
 To build the project just type : `gulp`. The default task will take the `app/src.js`, lint it, browserify it and copy the result into a `dist/restlet-angular-httpsnippet.js` file.
