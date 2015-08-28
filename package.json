@@ -8,13 +8,21 @@
     "email": "nbaptiste-ext@restlet.com"
   },
   "license": "ISC",
+  "scripts": {
+    "test" : "mocha"
+  },
   "dependencies": {
     "httpsnippet": "restlet/httpsnippet#restlet"
   },
   "devDependencies": {
+    "angular": "1.4.4",
+    "angular-mocks": "1.4.4",
     "browserify": "11.0.1",
     "gulp": "3.9.0",
-    "gulp-jshint": "^1.11.2",
+    "gulp-jshint": "1.11.2",
+    "jsdom": "3.1.2",
+    "mocha": "2.2.5",
+    "should": "7.0.4",
     "vinyl-source-stream": "1.1.0"
   }
 }
