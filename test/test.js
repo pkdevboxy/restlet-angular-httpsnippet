@@ -30,7 +30,7 @@ describe('Angular module', function () {
 
     // then
     snippet.should.be.an.instanceOf(String);
-    snippet.should.startWith('ClientResource cr = new ClientResource("http://mockbin.com/har");')
+    snippet.should.startWith('import org.restlet.resource.*;')
 
   }));
 
